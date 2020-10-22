@@ -10,8 +10,6 @@ public class Demo {
 			}
 			System.out.println();
 		}
-		System.out.println(arrDeepToString(create2DArray(5, 5, 5)));
-		System.out.println(arrDeepToString(create2DArrayRandomized(5, 5, 5)));
 	}
 	public static int[][] create2DArray(int rows, int cols, int maxValue) {
 		int[][] result = new int[rows][cols];
