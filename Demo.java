@@ -30,17 +30,17 @@ public class Demo {
 		}
 		return result;
 	}
-	public static String arrDeepToString(int[][] arr) {
+	public static String arrayDeepToString(int[][] arr) {
 		String res = "{";
 		for (int i = 0; i < arr.length; i++) {
-			res += arrToString(arr[i]);
+			res += arrayToString(arr[i]);
 			if (i < arr.length - 1) {
 				res += ", ";
 			}
 		}
 		return res + "}";
 	}
-	public static String arrToString(int[] arr){
+	public static String arrayToString(int[] arr){
 		String res = "{";
 		for (int i = 0; i < arr.length; i++) {
 			res += String.valueOf(arr[i]);
